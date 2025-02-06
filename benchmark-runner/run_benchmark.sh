@@ -4,7 +4,7 @@ cd /benchmark/benchmark-scripts
 
 echo "Lenguaje | Tiempo (ms)" > results.txt
 
-for dir in JavaScript Go; do
+for dir in Go JavaScript; do
     echo "Ejecutando $dir..."
     cd $dir
     docker build -t ${dir}_benchmark .
