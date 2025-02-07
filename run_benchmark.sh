@@ -1,6 +1,6 @@
 #!/bin/sh
 
-cd /benchmark/benchmark-scripts
+cd /benchmark/edc2-dockerbench
 
 echo "Lenguaje | Tiempo (ms)" > results.txt
 
