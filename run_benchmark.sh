@@ -2,6 +2,8 @@
 
 cd /benchmark/edc2-dockerbench
 
+git pull
+
 echo "Lenguaje | Tiempo (ms)" > results.txt
 
 for dir in go javascript; do
