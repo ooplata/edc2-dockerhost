@@ -7,7 +7,7 @@ services:
     build:
       context: https://github.com/ooplata/edc2-dockerbench.git#main:go
       dockerfile: Dockerfile
-  node:
+  javascript:
     build:
       context: https://github.com/ooplata/edc2-dockerbench.git#main:node
       dockerfile: Dockerfile
