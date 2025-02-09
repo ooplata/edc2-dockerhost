@@ -17,3 +17,20 @@ curl "https://raw.githubusercontent.com/ooplata/edc2-dockerhost/refs/heads/main/
 ```
 
 Afterwards, simply run `docker compose up` - after the containers are done building and running, you can conveniently retrieve execution logs for every language using `docker compose logs`.
+
+## Running with Dockerfile
+From a shell with Docker installed (or in "Play with Docker" experience), run the following commands: 
+
+```bash
+curl -L -o repo.zip https://github.com/ooplata/edc2-dockerhost/archive/refs/heads/main.zip
+cd edc2-dockerhost-main/
+```
+
+Those two commands were to download and enter the repository folder, now, with the next two, we're going to build the image, and run the container:
+
+```bash
+docker build -t benchmark .
+docker run –rm –privileged -v /var/run/docker.sock:/var/run/docker.sock benhcmark
+```
+
+Afther that, the name of the language and the time in ms it's going to be showed on screen.
