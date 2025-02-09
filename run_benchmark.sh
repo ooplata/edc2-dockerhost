@@ -6,7 +6,7 @@ git pull
 
 echo "Lenguaje | Tiempo (ms)" > results.txt
 
-for dir in go node; do
+for dir in cpp python rust go node; do
     echo "Ejecutando $dir..."
     cd $dir
     docker build -t ${dir}_benchmark .
