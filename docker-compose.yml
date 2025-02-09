@@ -1,7 +1,7 @@
 services:
   cpp:
     build:
-      context: https://github.com/ooplata/edc2-dockerbench.git#main:Cpp
+      context: https://github.com/ooplata/edc2-dockerbench.git#main:cpp
       dockerfile: Dockerfile
   go:
     build:
@@ -13,9 +13,9 @@ services:
       dockerfile: Dockerfile
   python:
     build:
-      context: https://github.com/ooplata/edc2-dockerbench.git#main:Python
+      context: https://github.com/ooplata/edc2-dockerbench.git#main:python
       dockerfile: Dockerfile
   rust:
     build:
-      context: https://github.com/ooplata/edc2-dockerbench.git#main:Rust
+      context: https://github.com/ooplata/edc2-dockerbench.git#main:rust
       dockerfile: Dockerfile
