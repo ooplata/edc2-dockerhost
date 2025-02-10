@@ -23,6 +23,7 @@ From a shell with Docker installed (or in "Play with Docker" experience), run th
 
 ```bash
 curl -L -o repo.zip https://github.com/ooplata/edc2-dockerhost/archive/refs/heads/main.zip
+unzip repo.zip
 cd edc2-dockerhost-main/
 ```
 
