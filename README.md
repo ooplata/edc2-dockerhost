@@ -34,3 +34,9 @@ docker run –rm –privileged -v /var/run/docker.sock:/var/run/docker.sock benh
 ```
 
 Afther that, the name of the language and the time in ms it's going to be showed on screen.
+
+## Benchmark Repository
+Here's the link to the benchmark repository from where the scripts are downloaded:
+
+https://github.com/ooplata/edc2-dockerbench 
+
